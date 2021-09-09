@@ -88,6 +88,6 @@ app.delete('/api/persons/:id', (req, res) => {
 })
 //listening
 
-app.listen(app.get('port'), () => {
+app.listen(PORT, () => {
   console.log(`Server listening in port: ${PORT}`)
 })
