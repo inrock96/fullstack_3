@@ -27,7 +27,8 @@ let phonebook = [
 
 ]
 
-const PORT = (3001 || process.env.PORT)
+const PORT = process.env.PORT || 3001
+
 app.set('port', PORT)
 let contador = 0
 //config
